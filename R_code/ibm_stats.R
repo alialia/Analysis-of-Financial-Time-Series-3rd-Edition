@@ -1,4 +1,5 @@
-setwd("~/R_data") # Set working directory
+# Set working directory
+setwd("C:/Users/rmist/Documents/Analysis of Financial Time Series github/Analysis-of-Financial-Time-Series-3rd-Edition/R_data")
 library(fBasics) # Load the package fBasics
 da=read.table("d-ibm3dx7008.txt",header=T) # Load the data.
 # header=T means 1st row of the data file contains

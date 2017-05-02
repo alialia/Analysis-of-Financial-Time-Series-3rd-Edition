@@ -1,3 +1,7 @@
+# Set working directory
+setwd("C:/Users/rmist/Documents/Analysis of Financial Time Series github/Analysis-of-Financial-Time-Series-3rd-Edition/R_data") 
+library(fBasics) # Load the package fBasics
+
 # 1.1
 da=read.table("d-3stocks9908.txt",header=T) # Load the data.
 axp = da[,2]*100
